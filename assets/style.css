@@ -503,3 +503,8 @@ button { font: inherit; color: inherit; }
 /* Badge « Notre conseil » : toujours d'un seul bloc, sous le nom de la formule */
 .formule--phare .formule__nom::after { display: block; width: max-content; margin: 8px 0 0; white-space: nowrap; vertical-align: 0; }
 .grille__tete { align-items: flex-start; }
+/* Encadré « offert » dans la grille Réseaux sociaux */
+.grille__pied p { margin: 0; }
+.offert { position: relative; margin: 4px 0 14px !important; padding: 16px 16px 14px; background: var(--rose-prune); border: 2px solid var(--noir); box-shadow: 4px 4px 0 var(--noir); font-size: 14px; }
+.offert strong { display: block; margin-bottom: 4px; font-stretch: 112%; font-weight: 800; font-size: 16px; line-height: 1.2; color: var(--prune); }
+.offert__tag { position: absolute; top: -11px; right: 12px; padding: 2px 8px; background: var(--noir); color: var(--pistache); font-stretch: 62%; font-weight: 600; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; }
