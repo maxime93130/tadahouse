@@ -483,3 +483,23 @@ button { font: inherit; color: inherit; }
 .carte__service { color: var(--prune); }
 .carte h3 { font-size: 24px; line-height: 1.15; text-wrap: balance; }
 .carte__pourqui { font-size: 14px; font-weight: 600; }
+
+/* Alignements : les blocs de chaque carte s'alignent d'une colonne à l'autre */
+.liste-coches li { align-items: baseline; }
+.liste-coches .icone { flex: none; transform: translateY(1px); }
+@media (min-width: 901px) {
+  .services { grid-template-rows: repeat(7, auto); row-gap: 0; }
+  .services .carte { display: grid; grid-row: span 7; grid-template-rows: subgrid; row-gap: 16px; align-content: start; }
+  .services .carte__icone, .services .carte__service { justify-self: start; }
+  .services .carte__tarif { align-self: end; justify-self: start; }
+  .grilles { align-items: stretch; }
+  .grille { display: grid; grid-row: span 3; grid-template-rows: subgrid; row-gap: 0; }
+  .grille__pied { align-self: end; }
+}
+/* En-têtes de section : légende au-dessus du titre, tout aligné sur le bord gauche des cartes */
+.section__tete { display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
+.section__tete .legende { padding-top: 0; }
+.section__tete h2 { max-width: 18ch; }
+/* Badge « Notre conseil » : toujours d'un seul bloc, sous le nom de la formule */
+.formule--phare .formule__nom::after { display: block; width: max-content; margin: 8px 0 0; white-space: nowrap; vertical-align: 0; }
+.grille__tete { align-items: flex-start; }
