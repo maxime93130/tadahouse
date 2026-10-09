@@ -89,7 +89,9 @@ button { font: inherit; color: inherit; }
 .accroche__titre { grid-column: span 7; display: flex; flex-direction: column; gap: 28px; min-width: 0; }
 .accroche__sur { margin: 0; display: flex; align-items: center; gap: 8px; }
 .accroche__sur .icone { width: 14px; animation: tourne 6s linear infinite; }
-.accroche h1 { font-size: clamp(42px, 6vw, 88px); }
+.accroche h1 { font-size: clamp(34px, 4.6vw, 68px); }
+/* Le mot qui change a sa propre ligne : le titre ne bouge plus quand il s'écrit */
+.accroche h1 .insecable { display: block; }
 .accroche__texte { display: flex; flex-direction: column; gap: 24px; max-width: 560px; }
 .accroche__texte p { margin: 0; font-size: 18px; }
 
