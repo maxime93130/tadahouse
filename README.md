@@ -10,4 +10,4 @@ Site vitrine de Tada House, statique (HTML et CSS, sans JavaScript), publié ave
 
 Charte : identité visuelle v0.2 (octobre 2026), direction A (pistache #C9D86A, crème #F5F1E6, noir #1A1814, prune #4E2342), famille Archivo seule.
 
-À compléter avant la mise en ligne : éditeur et SIRET dans les mentions légales, tarifs quand les offres sont fixées.
+Éditeur : Maxime GAILLARD, micro-entreprise (SIRET 892 358 953 00016), TVA non applicable. Reste à ajouter : l'adresse dans les mentions légales.
