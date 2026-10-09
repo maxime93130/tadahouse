@@ -1,8 +1,8 @@
 # tadahouse.com
 
-Site vitrine de Tada House, statique (HTML et CSS, sans JavaScript), publié avec GitHub Pages.
+Site vitrine de Tada House, statique (HTML, CSS et un peu de JavaScript pour les animations), publié avec GitHub Pages.
 
-- `index.html` : accueil (services, méthode, pour qui, tarifs, contact)
+- `index.html` : accueil (démos, services, réalisations, méthode, tarifs, contact)
 - `mentions-legales.html` : mentions légales et confidentialité
 - `assets/style.css` : charte (couleurs en variables, police Archivo auto-hébergée)
 - `assets/img/` : logo, favicon, image de partage
